@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>homework_2</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var name = prompt('Hi! What i your name?');
+		var surname = prompt('What i your surname?');
+		var middlename = prompt('What i your middle name?');
+		var birthDay = prompt('When is your birthday?');
+		var address = prompt('What is your address?');
+		var defaultAlert = 'You didn\'t give an information about your' ;
+
+		!!name ? alert('Your name is ' + name) : confirm(defaultAlert + ' name');
+		!!surname ? alert('Your surname is ' + surname) : confirm(defaultAlert + ' surname');
+		!!middlename ? alert('Your middle name is ' + middlename) : confirm(defaultAlert + ' middle name');
+		!!birthDay ? alert('Your birthday is ' + birthDay) : confirm(defaultAlert + ' birthday');
+		!!address ? alert('Your address is ' + address) : confirm(defaultAlert + ' address');
+
+
+	</script>
+</body>
+</html>
